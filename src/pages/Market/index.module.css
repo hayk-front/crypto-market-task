@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.marketSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+
+.logo {
+  max-width: 300px;
+  height: auto;
+}
+
+.title {
+  margin: 0 0 20px 0;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.gridContainer {
+  width: 100%;
+  position: relative;
+  margin: 16px 0;
+}
+
+.loading,
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  font-size: 18px;
+  color: #888;
+}
+
+.error {
+  color: #ff3d71;
+}
+
+.loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(18, 18, 18, 0.7);
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  color: #888;
+  font-size: 16px;
+  z-index: 10;
+  backdrop-filter: blur(2px);
+}
+
+.loadingMore {
+  text-align: center;
+  padding: 20px 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.endMessage {
+  text-align: center;
+  padding: 20px 0;
+  color: #888;
+  font-size: 14px;
+}

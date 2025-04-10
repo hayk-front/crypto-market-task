@@ -1,0 +1,47 @@
+.tabsContainer {
+  display: flex;
+  border-bottom: 1px solid #333;
+  margin-bottom: 32px;
+}
+
+.tabButton {
+  min-width: 163px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  padding: 12px 0;
+  color: #8b8b8b;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.tabButton:focus {
+  border: none;
+  outline: none;
+}
+
+.tabButton:hover {
+  color: #ccc;
+}
+
+.active {
+  color: #fff;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #cdff00;
+}
+
+.active::focus {
+  outline: none;
+}

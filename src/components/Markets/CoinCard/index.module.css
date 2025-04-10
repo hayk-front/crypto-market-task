@@ -1,0 +1,109 @@
+.coinCard {
+  max-width: 230px;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 196px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.coinCard:hover {
+  background-color: #2e2e2e;
+}
+
+.coinHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.coinLogoContainer {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.coinLogo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.coinInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.coinSymbol {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.coinName {
+  font-size: 12px;
+  color: #8e8e8e;
+  margin: 0;
+}
+
+.coinChart {
+  flex-grow: 1;
+  margin: 16px 0;
+  height: 100px;
+  max-height: 100px;
+}
+
+.chartSvg {
+  width: 100%;
+  height: 48px;
+}
+
+.positiveChart {
+  color: #cdff00;
+}
+
+.negativeChart {
+  color: #ff3440;
+}
+
+.coinFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.coinPrice {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.coinChange {
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 6px;
+  min-width: 66px;
+  text-align: center;
+  background-color: #292929;
+}
+
+.positive {
+  color: #cdff00;
+}
+
+.negative {
+  color: #ff3d71;
+}

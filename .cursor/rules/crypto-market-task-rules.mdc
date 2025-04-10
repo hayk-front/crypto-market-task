@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Cursor AI Rules File
+
+# General Code Guidelines:
+rules:
+  - Provide code that is clean, easy to read, and well-organized.
+  - Use a minimalistic approach: include only the essential parts required to solve the problem.
+  - Ensure that the code adheres to best practices and industry-standard coding conventions.
+  - Avoid overengineering: implement only what is necessary for the functionality at hand.
+  - Write clear comments where needed, especially to explain non-trivial logic.
+  - Use concise and descriptive variable names and maintain consistent formatting.
+
+# Specific Instructions:
+instructions:
+  - When generating code, always strive for simplicity and clarity.
+  - Refactor complex structures into straightforward, single-purpose functions or components.
+  - Avoid adding extra features or dependencies that are not explicitly requested.
+  - Optimize for readability and maintainability over clever or overly abstract designs.
+  - Ensure that error handling is in place, but keep it minimal and to the point.
+
+# Output Formatting:
+output:
+  - Return code blocks with proper syntax highlighting.
+  - If applicable, include instructions or comments indicating how to run and test the code.
+  - Provide only the code needed for the feature or example, without extra boilerplate or unrelated content.
+
+# Final Reminder:
+reminder:
+  - Remember that minimalism does not mean sacrificing functionality: ensure the output is robust and follows best practices.
+  - Keep the code as lean and straightforward as possible while remaining functional and easily maintainable.
