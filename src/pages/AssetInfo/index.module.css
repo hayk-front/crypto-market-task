@@ -1,0 +1,145 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 300px;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.priceContainer {
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 28px;
+}
+
+.priceChange {
+  font-size: 12px;
+  min-width: 54px;
+  border-radius: 8px;
+  padding: 4px;
+  background-color: #2f2f2f;
+}
+
+.priceUp {
+  color: #cdff00;
+}
+
+.priceDown {
+  color: #ff3440;
+}
+
+.chartContainer {
+  width: -webkit-fill-available;
+  height: 424px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  padding: 24px 24px 16px 24px;
+  overflow: hidden;
+  background-color: #242424;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.timeSelector {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.timeButton {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
+.timeButtonActive {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #8cc63f;
+  color: #000000;
+  cursor: pointer;
+}
+
+.loadingState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+}
+
+.loadingSpinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  border-top-color: #8cc63f;
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.errorState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.errorState h3 {
+  color: #ff5a5a;
+  margin-bottom: 10px;
+}
+
+.errorState p {
+  margin-bottom: 20px;
+  color: #aaaaaa;
+}
+
+.button {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #8cc63f;
+  color: #000000;
+}

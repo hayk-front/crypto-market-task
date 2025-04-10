@@ -1,0 +1,146 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  position: relative;
+}
+
+.coinsTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #fff;
+}
+
+.coinsTable th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 500;
+  color: #888;
+  border-bottom: 1px solid #2a2a2a;
+  position: relative;
+}
+
+.coinsTable td {
+  padding: 16px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.coinRow {
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.coinRow:hover {
+  background-color: #252525;
+}
+
+.marketName {
+  display: flex;
+  align-items: center;
+}
+
+.coinLogoContainer {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coinLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.coinInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.coinSymbol {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.coinNameText {
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.chartCell {
+  padding: 8px 16px;
+}
+
+.chartImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.priceCell {
+  font-weight: 500;
+}
+
+.changeCell {
+  font-weight: 500;
+}
+
+.positive {
+  color: #cdff00;
+}
+
+.negative {
+  color: #ff3d71;
+}
+
+.tradeButton {
+  background-color: rgba(205, 255, 0, 0.9);
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tradeButton:hover {
+  background-color: rgba(205, 255, 0, 1);
+}
+
+.infoColumn {
+  display: flex;
+  align-items: center;
+}
+
+.infoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #444;
+  margin-right: 8px;
+  font-size: 10px;
+  cursor: help;
+}
+
+.loadingIndicator {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 14px;
+  margin-top: 16px;
+  padding: 16px 0;
+  border-top: 1px solid #2a2a2a;
+}
