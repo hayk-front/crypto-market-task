@@ -64,6 +64,6 @@ npm run build
 - Redux Toolkit
 - React Router
 - Axios
-- Lightweight Charts
+- Trading View: Lightweight Charts
 - CSS Modules
 - Vite

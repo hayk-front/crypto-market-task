@@ -13,7 +13,7 @@ dist-ssr
 *.local
 
 # Ignore configuration and rules files
-cursor/
+.cursor/
 
 # Editor directories and files
 .vscode/*
